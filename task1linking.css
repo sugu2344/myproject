@@ -1,0 +1,464 @@
+body {
+  border: 50px solid whitesmoke;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-size: 100%;
+  background-position: center;
+  height: max-content;
+  box-sizing: content-box;
+  box-sizing: border-box;
+}
+/* header  */
+.headerdiv {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border: 1px solid whitesmoke;
+}
+.headerleft {
+  float: left;
+  margin-left: 20px;
+}
+.headermid {
+  text-align: center;
+  margin-left: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+.headerright {
+  float: right;
+  padding-bottom: 10px;
+  margin-top: -20px;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+}
+.login {
+  border: 2px solid rgb(128, 128, 155);
+  padding: 9px 50px;
+}
+.signup {
+  border: 2px solid rgb(38, 38, 119);
+  background-color: rgb(50, 50, 116);
+  color: white;
+  padding: 9px 50px;
+}
+
+/* boxone  */
+
+.boxone {
+  display: flex;
+}
+
+/* boxone left  */
+.boxone {
+  margin-left: 20px;
+}
+.larger {
+  font-size: 50px;
+  margin-top: 50px;
+}
+.dim1 {
+  color: rgb(143, 78, 78);
+  margin-top: 5px;
+}
+.box1buttons {
+  margin-top: 20px;
+}
+.getstarted {
+  border: 2px solid rgb(38, 38, 119);
+  background-color: rgb(50, 50, 116);
+  color: white;
+  padding: 9px 40px;
+}
+.watchvideo {
+  border: 2px solid rgb(128, 128, 155);
+  padding: 9px 40px;
+}
+
+/* boxone right  */
+
+.box1rightimg {
+  margin-left: 380px;
+}
+/*  box2 small box  */
+.smallbox {
+  clear: both;
+
+  column-count: 3;
+
+  text-align: center;
+  column-gap: 10px;
+  column-rule-style: solid;
+  border: 2px solid rgb(100, 100, 141);
+  background-color: rgb(113, 113, 164);
+  color: white;
+}
+.smallbox1 {
+  margin-top: -20px;
+}
+/* box3  */
+
+.rightmidleftbox {
+  display: flex;
+  clear: both;
+}
+.fourboxs {
+  float: left;
+}
+.boxleft {
+  float: left;
+  margin-left: 70px;
+}
+.box1 {
+  border: solid 2px;
+  background-color: darkslateblue;
+  color: white;
+  width: 25%;
+  text-align: center;
+  margin-left: 20px;
+  clear: right;
+  margin-top: 20px;
+
+  padding: 5px 10px;
+  height: 257px;
+  width: 225px;
+}
+
+.box2 {
+  display: left;
+
+  border: solid 2px;
+  color: rgb(111, 53, 133);
+  width: 25%;
+  text-align: center;
+  margin-left: 20px;
+
+  padding: 10px;
+  margin-top: 30px;
+
+  padding: 5px 10px;
+  height: 257px;
+  width: 225px;
+}
+.logo2 {
+  padding-top: 15px;
+}
+
+.box-mid {
+  float: right;
+  margin-right: 65px;
+  margin-top: 65px;
+}
+.box3 {
+  float: right;
+  border: solid 2px;
+  color: rgb(111, 53, 133);
+  width: 25%;
+  text-align: center;
+  margin-left: 10px;
+  clear: right;
+
+  margin-top: 5px;
+  padding: 5px 10px;
+  height: 257px;
+  width: 225px;
+}
+.logo3 {
+  padding-top: 15px;
+}
+.box4 {
+  float: right;
+  border: solid 2px;
+  color: rgb(111, 53, 133);
+  width: 25%;
+  text-align: center;
+  margin-left: 10px;
+  clear: right;
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: 5px 10px;
+  height: 257px;
+  width: 225px;
+}
+.logo4 {
+  padding-top: 15px;
+}
+.boxright {
+  float: right;
+  margin-left: 165px;
+  margin-top: 117px;
+}
+.bold {
+  border-bottom: 2px solid;
+  border-color: rgb(199, 196, 190);
+  font-size: 25px;
+}
+.low {
+  color: rgb(143, 78, 78);
+}
+.colouring {
+  border-bottom: 2px solid red;
+  position: absolute;
+  padding: 5px;
+}
+
+/* boxfour  */
+
+.boxfour {
+  clear: both;
+  display: flex;
+}
+.boxfourleft {
+  float: left;
+  margin-left: 20px;
+  width: 45%;
+}
+.bold1 {
+  font-size: 25px;
+  border-bottom: 2px solid;
+  border-color: rgb(199, 196, 190);
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.dim2 {
+  color: rgb(143, 78, 78);
+}
+
+.colouring1 {
+  border-bottom: 2px solid red;
+  position: absolute;
+  padding: 5px;
+}
+.boxfourright {
+  float: right;
+  max-width: fit-content;
+  margin-left: 100px;
+}
+/* boxfive  */
+
+.boxfive {
+  display: flex;
+  clear: both;
+}
+.boxfiveleft {
+  float: left;
+  margin-left: 20px;
+}
+.bold2 {
+  border-bottom: 2px solid;
+  border-color: rgb(199, 196, 190);
+  font-size: 25px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.dim3 {
+  color: rgb(143, 78, 78);
+  margin-top: 20px;
+}
+.boxfiveright {
+  float: right;
+}
+.colouring2 {
+  border-bottom: 2px solid red;
+  position: absolute;
+  padding: 5px;
+  margin-left: 750px;
+  margin-top: 25px;
+}
+
+/* box6 navigation bar mid  */
+.box6horizontalbar {
+  list-style-type: none;
+  clear: both;
+  column-count: 6;
+  margin-left: 10px;
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* box 7 long img  */
+.longimage {
+  display: flex;
+  clear: both;
+  padding-left: 20px;
+}
+.box7imgone {
+  float: left;
+  padding-left: 55px;
+}
+.box7imgtwo {
+  float: left;
+  padding-left: 80px;
+}
+.box7imgthree {
+  float: right;
+  padding-left: 90px;
+}
+
+/* box8 three image details  */
+.imagedescription {
+  display: flex;
+  clear: both;
+}
+.description1 {
+  padding-left: 115px;
+}
+.dark1 {
+  color: rgb(44, 44, 91);
+}
+.dim4 {
+  color: rgb(143, 78, 78);
+}
+.description2 {
+  padding-left: 147px;
+}
+.dark2 {
+  color: rgb(44, 44, 91);
+}
+.dim5 {
+  color: rgb(143, 78, 78);
+}
+.description3 {
+  padding-left: 158px;
+}
+.dark3 {
+  color: rgb(44, 44, 91);
+}
+.dim6 {
+  color: rgb(143, 78, 78);
+}
+/* <!-- box9 happycustomers mid align --> */
+.head {
+  clear: both;
+  display: inline-block;
+}
+.head {
+  font-size: 25px;
+  color: rgb(33, 33, 112);
+  text-align: center;
+  padding-left: 411px;
+}
+.dim7 {
+  color: rgb(143, 78, 78);
+  text-align: center;
+}
+/* box10 blue box  */
+
+.box10bluebox {
+  clear: both;
+  display: flex;
+  margin-left: 270px;
+}
+.box10left {
+  float: left;
+  background-color: rgb(33, 33, 103);
+  color: white;
+  border: 2px solid;
+  padding: 60px 30px;
+  text-align: center;
+}
+.profile1 {
+  display: flex;
+  padding-top: 60px;
+}
+.details1 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.details2 {
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+.box10right {
+  float: right;
+  background-color: rgb(33, 33, 103);
+  color: white;
+  border: 2px solid;
+  padding: 60px 20px;
+  text-align: center;
+}
+.profile2 {
+  display: flex;
+  padding-top: 60px;
+}
+.dim9 {
+  color: rgb(110, 67, 2);
+}
+/* box11 subscribe box  */
+.box11subscriptionbox {
+  clear: both;
+  background-color: wheat;
+}
+.highlight {
+  text-align: center;
+  color: rgb(61, 61, 139);
+  font-size: 35px;
+}
+.dim8 {
+  color: rgb(143, 78, 78);
+  padding-top: 10px;
+}
+
+.emailbuttons {
+  margin-left: 565px;
+}
+.finalbutton {
+  border: 2px solid rgb(80, 80, 128);
+  color: rgb(56, 56, 136);
+  background-color: white;
+  padding: 12px 20px;
+}
+.finalbutton1 {
+  border: 2px solid rgb(36, 36, 152);
+  color: white;
+  background-color: blue;
+  padding: 16px 40px;
+}
+.star {
+  margin-left: 1345px;
+}
+
+/* fotter  */
+
+.fotter {
+  clear: both;
+  display: flex;
+  background-color: rgb(61, 61, 152);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.leftfotter {
+  float: left;
+  margin-left: 20px;
+}
+
+.centerfotter {
+  color: white;
+  margin-left: 460px;
+  justify-content: center;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 20px;
+  text-decoration: nones;
+}
+.mid {
+  color: white;
+}
+.final{
+    color: white;
+    justify-content: space-between;
+}
+.contactus {
+  float: right;
+  margin-left: 400px;
+}
+
+/*.................................................... mobile responsive view .................................................................. */
+ 
+
