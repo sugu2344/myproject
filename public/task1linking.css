@@ -1,3 +1,5 @@
+/* @media screen and (min-width: 1000px){ */
+
 body {
   border: 50px solid whitesmoke;
   margin: auto;
@@ -394,7 +396,7 @@ a {
   clear: both;
   background-color: wheat;
 }
-.highlight {
+.highlight { 
   text-align: center;
   color: rgb(61, 61, 139);
   font-size: 35px;
@@ -458,7 +460,46 @@ a {
   float: right;
   margin-left: 400px;
 }
+}
 
 /*.................................................... mobile responsive view .................................................................. */
- 
+/* @media screen and (min-width: 420px){
+  body{
+      width: 100%;
+      font-size: 10px;
+  }
+  /* box1  */
+  .boxone {
+      flex-direction: column;
+  }
+  .box1left
+  {
+    margin-left: 195px;
+    margin-bottom: 20px;
+  }
+  .box1right {
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* box3   */
+  
+.rightmidleftbox {
+  flex-direction: column;
+}  
+.boxleft {
+  margin-left: 131px;
+} 
+.box-mid {
+margin-right: 145px;
+  margin-top: 15px;
+}
+.boxright {
+  margin-right: 172px;
+  margin-bottom: 100px;
 
+}
+.boxfour {
+  display: block;
+}
+}  */

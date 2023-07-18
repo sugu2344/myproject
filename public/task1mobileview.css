@@ -9,6 +9,16 @@
     .boxone {
         flex-direction: column;
     }
+    .box1left
+    {
+      margin-left: 195px;
+      margin-bottom: 20px;
+    }
+    .box1right {
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
     /* box3   */
     
  .rightmidleftbox {
@@ -29,5 +39,4 @@
  .boxfour {
     display: block;
  }
-
 }
